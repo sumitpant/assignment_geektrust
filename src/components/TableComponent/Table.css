@@ -1,0 +1,120 @@
+.table__div{
+ width: 90%;
+
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin:10px;
+}
+.table__div>table{
+    width: 100%;
+    margin-left:20px;
+}
+.table_heading{
+    text-align: center;
+}
+.table_heading>th{
+    text-align: center;
+}
+tr>td{
+    text-align: center;
+}
+td, th{
+    border-bottom: 1px solid #dddddd;
+    padding: 8px;
+}
+.edit:hover{
+    cursor: pointer;
+}
+.delete:hover{
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.edit_div{
+    width: 29px;
+    height: 29px;
+  
+}
+.edit_div:hover{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transform: translate(1.5);
+    background-color:rgb(232, 238, 240);
+    border-radius:50%;
+
+}
+.delete_div{
+    
+    width: 29px;
+    height: 29px;
+   
+}
+.delete_div:hover{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(232, 238, 240);
+    border-radius:50%;
+
+}
+.btn{
+    appearance: none;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin: 10px;
+}
+.btn_delete{
+    appearance: none;
+    background-color: rgb(238, 75, 43);
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin: 10px;
+
+}
+.table_body_gray{
+    background-color:rgb(241, 241, 241);
+}
+

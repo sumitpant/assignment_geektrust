@@ -1,0 +1,42 @@
+.pages{
+    display: inline-block;
+    height: 30px;
+    width:30px;
+    background-color:grey;
+    margin:5px;
+    border-radius:50%;
+    text-align:center;
+    transition: ease 1s;
+}
+.pages__selected{
+    display: inline-block;
+    height: 30px;
+    width:30px;
+    background-color:blue;
+    margin:5px;
+    border-radius:50%;
+    text-align:center;
+    transition:1s;
+    
+
+}
+.pages :hover {
+    cursor: pointer;
+}
+.pages__selected{
+    cursor:pointer;
+
+}
+
+.pages>span{
+    text-align:center;
+    color:white;
+}
+.pages__selected>span{
+    color:white;
+}
+.pages__div{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
